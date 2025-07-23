@@ -1,0 +1,11 @@
+[package]
+name = "subwire"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam-queue = "0.3.12"
+mio = { version = "1.0.4", features = ["net", "os-poll"] }
+postcard = "1.1.2"
+serde = { version = "1.0.219", features = ["derive"] }
+socket2 = "0.6.0"
